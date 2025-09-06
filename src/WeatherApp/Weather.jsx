@@ -136,7 +136,7 @@ const Weather = () => {
             </div>
           </>
         ) : (
-          <p className="text-center text-white text-xl">Search a city to see weather 🌤️</p>
+          <p className="text-center text-white text-xl">Search a city to see weather reports</p>
         )}
 
       </div>
