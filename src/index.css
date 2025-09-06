@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+
+body {
+  margin: o;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: aqua;
+}
+
+.bg-weather-gradient {
+  background: linear-gradient(
+    20deg,
+    #f382f3 0%,
+    #db7fdb 10%,
+    #b863be 20%,
+    #7e4491 35%,
+    #532e78 50%,
+    #321c65 70%,
+    #1e145c 100%
+  ),
+  radial-gradient(
+    circle at bottom right,
+    #3e56b6 0%,
+    transparent 0%
+  );
+  background-blend-mode: screen;
+}
