@@ -150,9 +150,10 @@ const getWeatherIcon = (main) => {
              <div className='space-y-2 text-center md:text-left'>
                  <div className='flex items-start justify-center md:justify-start
                  space-x-2'>
-                    <h2 className='text-7xl md:text-8xl text-white font-bold'>
-                        {Math.round(weatherData.main.temp - 273.15)}
+                    <h2 className="text-7xl md:text-8xl text-white font-bold">
+                       {weatherData?.main ? Math.round(weatherData.main.temp - 273.15) : "--"}
                     </h2>
+
                     <span className='text-3xl md:text-5xl text-white'>deg C</span>
                  </div>
                  <h3 className='text-white text-xl md:text-2xl font-medium'>
